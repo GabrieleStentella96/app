@@ -5,9 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CompletedPage } from './pagine/completed/completed.page';
 import { TodoPage } from './pagine/todo/todo.page';
-import { AppformComponent } from './componenti/appform/appform.component';
-import { ElementComponent } from './componenti/element/element.component';
-import { NavbarComponent } from './componenti/navbar/navbar.component';
+import { FormsComponent } from './componenti/forms/forms.component';
+import { ItemsComponent } from './componenti/items/items.component';
+import { HeaderComponent } from './componenti/header/header.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -15,9 +15,9 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     CompletedPage,
     TodoPage,
-    AppformComponent,
-    ElementComponent,
-    NavbarComponent
+    FormsComponent,
+    ItemsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

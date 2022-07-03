@@ -4,11 +4,11 @@ import { ToDoService } from 'src/app/service/todos.service';
 
 
 @Component({
-  selector: 'app-element',
-  templateUrl: './element.component.html',
-  styleUrls: ['./element.component.scss']
+  selector: 'app-items',
+  templateUrl: './items.component.html',
+  styleUrls: ['./items.component.scss']
 })
-export class ElementComponent implements OnInit {
+export class ItemsComponent implements OnInit {
 
   elementi!: Todo[];
   rimuovi: boolean = true;
@@ -18,7 +18,7 @@ export class ElementComponent implements OnInit {
   constructor(serviceElementi: ToDoService) { }
 
   ngOnInit(): void {
-    this.elementi = this.serviceElementi.getItemList()
+  
   
   }
 

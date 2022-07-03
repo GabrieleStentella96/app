@@ -1,0 +1,8 @@
+
+<ul>
+    <li  *ngFor="let item of elementi; let i = index">
+      {{item.title}} 
+      <button class="completed" [routerLink]="['/completed', i]" (click)="ultimaTask(item)" >Completato</button>
+      <button class="remove"(click)="cancellaTask(item)" >rimuovi</button>
+    </li>
+  </ul>

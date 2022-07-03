@@ -11,6 +11,8 @@ import { ToDoService } from 'src/app/service/todos.service';
 export class CompletedPage implements OnInit {
 
   elementi!: Todo[]
+  
+  
 
 
   constructor(private route: ActivatedRoute,

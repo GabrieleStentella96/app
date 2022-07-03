@@ -4,10 +4,10 @@ import { ToDoService } from 'src/app/service/todos.service';
 
 @Component({
   selector: 'app-forms',
-  templateUrl: './appform.component.html',
-  styleUrls: ['./appform.component.scss']
+  templateUrl: './forms.component.html',
+  styleUrls: ['./forms.component.scss']
 })
-export class AppformComponent implements OnInit {
+export class FormsComponent implements OnInit {
 
   title!: string;
   id!:number;

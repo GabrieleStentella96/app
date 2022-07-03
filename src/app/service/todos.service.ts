@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { Element } from '../classi/element';
 import { Todo } from '../interfaccia/todo';
 
 @Injectable({
@@ -30,6 +29,7 @@ export class ToDoService {
   newTask(a: Todo): void {
     if (a.title !== undefined) {
     this.elementlist.push(a);
+    console.log(a)
   }
   else {
     alert('Devi inserire per forza una task!')

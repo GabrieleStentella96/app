@@ -1,0 +1,7 @@
+<h1>Task completate</h1>
+<ul *ngFor="let element of elementi; let i = index" >
+    <li  *ngIf="element.completed === true;">
+      {{element.title}} 
+      
+    </li>   
+  </ul>

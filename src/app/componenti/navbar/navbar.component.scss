@@ -1,0 +1,26 @@
+li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    color:#fe0707;
+}
+
+li a{
+    
+    text-decoration: none;
+    padding: 5px;
+    color:#fe0707;
+}
+
+li a:hover{
+    
+    color: #e0bc0b;
+    text-decoration: underline;
+}
+
+li:hover{
+    background-color: white;
+    color: #e0bc0b;
+    text-decoration: underline;
+    color:rgb(116, 68, 68);
+}
